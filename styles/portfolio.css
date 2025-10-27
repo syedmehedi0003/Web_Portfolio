@@ -180,9 +180,81 @@ main section{
     border-radius: 5px;
 }
 
-/* Summary styles  */
+/* Resume Summary styles  */
+.resume hr{
+  color: #D1D1D1;
+  margin: 30px 5px;  
+}
 
-.edu-tittle{
+.resume .btn{
+   margin-top: 40px;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.resume-container{
+    display: flex;
+    gap:24px
+}
+
+.resume-column-tittle{
     font-size: 30px;
     font-weight: 700;
+     color:#474747;
 }
+
+.experience-tittle{
+    font-size: 25xp;
+    font-weight: 700;
+     color:#474747;
+     margin: 0px;
+}
+
+.experience-sub-tittle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 5px;
+}
+
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+
+/* footer styles  */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+footer .heading{
+    /* text-align: center; */
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"],[type="email"],textarea{
+    width: 90%;
+    border-radius: 5px;
+    height: 64px;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
